@@ -1,0 +1,4 @@
+[submodule "modules/rt-thread"]
+	path = modules/rt-thread
+	url = https://github.com/Luviewer/rt-thread.git
+	branch = v4.1.0-no-bsp

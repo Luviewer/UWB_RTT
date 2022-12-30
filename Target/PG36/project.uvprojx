@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no" ?>
 <Project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="project_projx.xsd">
+
   <SchemaVersion>2.1</SchemaVersion>
+
   <Header>### uVision Project, (C) Keil Software</Header>
+
   <Targets>
     <Target>
       <TargetName>rt-thread</TargetName>
@@ -16,28 +19,28 @@
           <PackID>GigaDevice.GD32F10x_DFP.2.0.3</PackID>
           <PackURL>https://gd32mcu.com/data/documents/pack/</PackURL>
           <Cpu>IRAM(0x20000000,0x00005000) IROM(0x08000000,0x00020000) CPUTYPE("Cortex-M3") CLOCK(12000000) ELITTLE</Cpu>
-          <FlashUtilSpec />
-          <StartupFile />
+          <FlashUtilSpec></FlashUtilSpec>
+          <StartupFile></StartupFile>
           <FlashDriverDll>UL2CM3(-S0 -C0 -P0 -FD20000000 -FC1000 -FN1 -FF0GD32F10x_MD -FS08000000 -FL020000 -FP0($$Device:GD32F103CB$Flash\GD32F10x_MD.FLM))</FlashDriverDll>
           <DeviceId>0</DeviceId>
           <RegisterFile>$$Device:GD32F103CB$Device\Include\gd32f10x.h</RegisterFile>
-          <MemoryEnv />
-          <Cmp />
-          <Asm />
-          <Linker />
-          <OHString />
-          <InfinionOptionDll />
-          <SLE66CMisc />
-          <SLE66AMisc />
-          <SLE66LinkerMisc />
+          <MemoryEnv></MemoryEnv>
+          <Cmp></Cmp>
+          <Asm></Asm>
+          <Linker></Linker>
+          <OHString></OHString>
+          <InfinionOptionDll></InfinionOptionDll>
+          <SLE66CMisc></SLE66CMisc>
+          <SLE66AMisc></SLE66AMisc>
+          <SLE66LinkerMisc></SLE66LinkerMisc>
           <SFDFile>$$Device:GD32F103CB$SVD\GD32F10x\GD32F10x_MD.svd</SFDFile>
           <bCustSvd>0</bCustSvd>
           <UseEnv>0</UseEnv>
-          <BinPath />
-          <IncludePath />
-          <LibPath />
-          <RegisterFilePath />
-          <DBRegisterFilePath />
+          <BinPath></BinPath>
+          <IncludePath></IncludePath>
+          <LibPath></LibPath>
+          <RegisterFilePath></RegisterFilePath>
+          <DBRegisterFilePath></DBRegisterFilePath>
           <TargetStatus>
             <Error>0</Error>
             <ExitCodeStop>0</ExitCodeStop>
@@ -59,8 +62,8 @@
           <BeforeCompile>
             <RunUserProg1>0</RunUserProg1>
             <RunUserProg2>0</RunUserProg2>
-            <UserProg1Name />
-            <UserProg2Name />
+            <UserProg1Name></UserProg1Name>
+            <UserProg2Name></UserProg2Name>
             <UserProg1Dos16Mode>0</UserProg1Dos16Mode>
             <UserProg2Dos16Mode>0</UserProg2Dos16Mode>
             <nStopU1X>0</nStopU1X>
@@ -69,8 +72,8 @@
           <BeforeMake>
             <RunUserProg1>0</RunUserProg1>
             <RunUserProg2>0</RunUserProg2>
-            <UserProg1Name />
-            <UserProg2Name />
+            <UserProg1Name></UserProg1Name>
+            <UserProg2Name></UserProg2Name>
             <UserProg1Dos16Mode>0</UserProg1Dos16Mode>
             <UserProg2Dos16Mode>0</UserProg2Dos16Mode>
             <nStopB1X>0</nStopB1X>
@@ -80,14 +83,14 @@
             <RunUserProg1>1</RunUserProg1>
             <RunUserProg2>0</RunUserProg2>
             <UserProg1Name>fromelf --bin !L --output rtthread.bin</UserProg1Name>
-            <UserProg2Name />
+            <UserProg2Name></UserProg2Name>
             <UserProg1Dos16Mode>0</UserProg1Dos16Mode>
             <UserProg2Dos16Mode>0</UserProg2Dos16Mode>
             <nStopA1X>0</nStopA1X>
             <nStopA2X>0</nStopA2X>
           </AfterMake>
           <SelectedForBatchBuild>0</SelectedForBatchBuild>
-          <SVCSIdString />
+          <SVCSIdString></SVCSIdString>
         </TargetCommonOption>
         <CommonProperty>
           <UseCPPCompiler>0</UseCPPCompiler>
@@ -101,8 +104,8 @@
           <AssembleAssemblyFile>0</AssembleAssemblyFile>
           <PublicsOnly>0</PublicsOnly>
           <StopOnExitCode>3</StopOnExitCode>
-          <CustomArgument />
-          <IncludeLibraryModules />
+          <CustomArgument></CustomArgument>
+          <IncludeLibraryModules></IncludeLibraryModules>
           <ComprImg>1</ComprImg>
         </CommonProperty>
         <DllOption>
@@ -111,7 +114,7 @@
           <SimDlgDll>DCM.DLL</SimDlgDll>
           <SimDlgDllArguments>-pCM3</SimDlgDllArguments>
           <TargetDllName>SARMCM3.DLL</TargetDllName>
-          <TargetDllArguments />
+          <TargetDllArguments></TargetDllArguments>
           <TargetDlgDll>TCM.DLL</TargetDlgDll>
           <TargetDlgDllArguments>-pCM3</TargetDlgDllArguments>
         </DllOption>
@@ -135,11 +138,11 @@
           </Flash1>
           <bUseTDR>1</bUseTDR>
           <Flash2>BIN\UL2CM3.DLL</Flash2>
-          <Flash3 />
-          <Flash4 />
-          <pFcarmOut />
-          <pFcarmGrp />
-          <pFcArmRoot />
+          <Flash3></Flash3>
+          <Flash4></Flash4>
+          <pFcarmOut></pFcarmOut>
+          <pFcarmGrp></pFcarmGrp>
+          <pFcArmRoot></pFcArmRoot>
           <FcArmLst>0</FcArmLst>
         </Utilities>
         <TargetArmAds>
@@ -172,7 +175,7 @@
             <RvctClst>0</RvctClst>
             <GenPPlst>0</GenPPlst>
             <AdsCpuType>"Cortex-M3"</AdsCpuType>
-            <RvctDeviceName />
+            <RvctDeviceName></RvctDeviceName>
             <mOS>0</mOS>
             <uocRom>0</uocRom>
             <uocRam>0</uocRam>
@@ -306,7 +309,7 @@
                 <Size>0x0</Size>
               </OCR_RVCT10>
             </OnChipMemories>
-            <RvctStartVector />
+            <RvctStartVector></RvctStartVector>
           </ArmAdsMisc>
           <Cads>
             <interw>1</interw>
@@ -333,10 +336,10 @@
             <v6WtE>0</v6WtE>
             <v6Rtti>0</v6Rtti>
             <VariousControls>
-              <MiscControls />
+              <MiscControls></MiscControls>
               <Define>USE_STDPERIPH_DRIVER, GD32F10X_MD, __RTTHREAD__, RT_USING_ARM_LIBC, __CLK_TCK=RT_TICK_PER_SECOND</Define>
-              <Undefine />
-              <IncludePath>applications;.;..\..\Modules\rt-thread\components\libc\compilers\common;..\..\Modules\rt-thread\components\libc\compilers\common\extension;..\..\Modules\rt-thread\libcpu\arm\common;..\..\Modules\rt-thread\libcpu\arm\cortex-m3;..\..\Modules\rt-thread\components\drivers\include;..\..\Modules\rt-thread\components\drivers\include;..\..\Modules\rt-thread\components\drivers\include;board;..\..\Modules\rt-thread\bsp\gd32\libraries\gd32_drivers;..\..\Modules\rt-thread\components\finsh;.;..\..\Modules\rt-thread\include;..\..\Modules\rt-thread\bsp\gd32\libraries\GD32F10x_Firmware_Library\CMSIS\GD\GD32F10x\Include;..\..\Modules\rt-thread\bsp\gd32\libraries\GD32F10x_Firmware_Library\CMSIS;..\..\Modules\rt-thread\bsp\gd32\libraries\GD32F10x_Firmware_Library\GD32F10x_standard_peripheral\Include;..\..\Modules\rt-thread\components\libc\posix\io\poll;..\..\Modules\rt-thread\components\libc\posix\io\stdio;..\..\Modules\rt-thread\components\libc\posix\ipc</IncludePath>
+              <Undefine></Undefine>
+              <IncludePath>applications;.;..\..\Modules\rt-thread\components\libc\compilers\common;..\..\Modules\rt-thread\components\libc\compilers\common\extension;..\..\Modules\rt-thread\libcpu\arm\common;..\..\Modules\rt-thread\libcpu\arm\cortex-m3;..\..\Modules\rt-thread\components\drivers\include;..\..\Modules\rt-thread\components\drivers\include;..\..\Modules\rt-thread\components\drivers\include;board;board\libraries\gd32_drivers;..\..\Modules\rt-thread\components\finsh;.;..\..\Modules\rt-thread\include;board\libraries\GD32F10x_Firmware_Library\CMSIS\GD\GD32F10x\Include;board\libraries\GD32F10x_Firmware_Library\CMSIS;board\libraries\GD32F10x_Firmware_Library\GD32F10x_standard_peripheral\Include;..\..\Modules\rt-thread\components\libc\posix\io\poll;..\..\Modules\rt-thread\components\libc\posix\io\stdio;..\..\Modules\rt-thread\components\libc\posix\ipc</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -351,10 +354,10 @@
             <useXO>0</useXO>
             <ClangAsOpt>4</ClangAsOpt>
             <VariousControls>
-              <MiscControls />
-              <Define />
-              <Undefine />
-              <IncludePath />
+              <MiscControls></MiscControls>
+              <Define></Define>
+              <Undefine></Undefine>
+              <IncludePath></IncludePath>
             </VariousControls>
           </Aads>
           <LDads>
@@ -366,13 +369,13 @@
             <useFile>0</useFile>
             <TextAddressRange>0x08000000</TextAddressRange>
             <DataAddressRange>0x20000000</DataAddressRange>
-            <pXoBase />
+            <pXoBase></pXoBase>
             <ScatterFile>.\board\linker_scripts\link.sct</ScatterFile>
-            <IncludeLibs />
-            <IncludeLibsPath />
-            <Misc />
-            <LinkerInputFile />
-            <DisabledWarnings />
+            <IncludeLibs></IncludeLibs>
+            <IncludeLibsPath></IncludeLibsPath>
+            <Misc></Misc>
+            <LinkerInputFile></LinkerInputFile>
+            <DisabledWarnings></DisabledWarnings>
           </LDads>
         </TargetArmAds>
       </TargetOption>
@@ -395,22 +398,16 @@
               <FileType>1</FileType>
               <FilePath>..\..\Modules\rt-thread\components\libc\compilers\armlibc\syscalls.c</FilePath>
             </File>
-          </Files>
-          <Files>
             <File>
               <FileName>syscall_mem.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\..\Modules\rt-thread\components\libc\compilers\armlibc\syscall_mem.c</FilePath>
             </File>
-          </Files>
-          <Files>
             <File>
               <FileName>time.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\..\Modules\rt-thread\components\libc\compilers\common\time.c</FilePath>
             </File>
-          </Files>
-          <Files>
             <File>
               <FileName>stdlib.c</FileName>
               <FileType>1</FileType>
@@ -422,37 +419,29 @@
           <GroupName>CPU</GroupName>
           <Files>
             <File>
-              <FileName>showmem.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\..\Modules\rt-thread\libcpu\arm\common\showmem.c</FilePath>
-            </File>
-          </Files>
-          <Files>
-            <File>
               <FileName>div0.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\..\Modules\rt-thread\libcpu\arm\common\div0.c</FilePath>
             </File>
-          </Files>
-          <Files>
+            <File>
+              <FileName>showmem.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\Modules\rt-thread\libcpu\arm\common\showmem.c</FilePath>
+            </File>
             <File>
               <FileName>backtrace.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\..\Modules\rt-thread\libcpu\arm\common\backtrace.c</FilePath>
             </File>
-          </Files>
-          <Files>
-            <File>
-              <FileName>cpuport.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\..\Modules\rt-thread\libcpu\arm\cortex-m3\cpuport.c</FilePath>
-            </File>
-          </Files>
-          <Files>
             <File>
               <FileName>context_rvds.S</FileName>
               <FileType>2</FileType>
               <FilePath>..\..\Modules\rt-thread\libcpu\arm\cortex-m3\context_rvds.S</FilePath>
+            </File>
+            <File>
+              <FileName>cpuport.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\Modules\rt-thread\libcpu\arm\cortex-m3\cpuport.c</FilePath>
             </File>
           </Files>
         </Group>
@@ -460,61 +449,45 @@
           <GroupName>DeviceDrivers</GroupName>
           <Files>
             <File>
-              <FileName>ringblk_buf.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\..\Modules\rt-thread\components\drivers\ipc\ringblk_buf.c</FilePath>
-            </File>
-          </Files>
-          <Files>
-            <File>
-              <FileName>pipe.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\..\Modules\rt-thread\components\drivers\ipc\pipe.c</FilePath>
-            </File>
-          </Files>
-          <Files>
-            <File>
-              <FileName>ringbuffer.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\..\Modules\rt-thread\components\drivers\ipc\ringbuffer.c</FilePath>
-            </File>
-          </Files>
-          <Files>
-            <File>
               <FileName>waitqueue.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\..\Modules\rt-thread\components\drivers\ipc\waitqueue.c</FilePath>
             </File>
-          </Files>
-          <Files>
             <File>
-              <FileName>completion.c</FileName>
+              <FileName>ringblk_buf.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\Modules\rt-thread\components\drivers\ipc\completion.c</FilePath>
+              <FilePath>..\..\Modules\rt-thread\components\drivers\ipc\ringblk_buf.c</FilePath>
             </File>
-          </Files>
-          <Files>
-            <File>
-              <FileName>workqueue.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\..\Modules\rt-thread\components\drivers\ipc\workqueue.c</FilePath>
-            </File>
-          </Files>
-          <Files>
             <File>
               <FileName>dataqueue.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\..\Modules\rt-thread\components\drivers\ipc\dataqueue.c</FilePath>
             </File>
-          </Files>
-          <Files>
+            <File>
+              <FileName>completion.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\Modules\rt-thread\components\drivers\ipc\completion.c</FilePath>
+            </File>
+            <File>
+              <FileName>ringbuffer.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\Modules\rt-thread\components\drivers\ipc\ringbuffer.c</FilePath>
+            </File>
+            <File>
+              <FileName>workqueue.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\Modules\rt-thread\components\drivers\ipc\workqueue.c</FilePath>
+            </File>
+            <File>
+              <FileName>pipe.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\Modules\rt-thread\components\drivers\ipc\pipe.c</FilePath>
+            </File>
             <File>
               <FileName>pin.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\..\Modules\rt-thread\components\drivers\misc\pin.c</FilePath>
             </File>
-          </Files>
-          <Files>
             <File>
               <FileName>serial.c</FileName>
               <FileType>1</FileType>
@@ -528,28 +501,22 @@
             <File>
               <FileName>startup_gd32f10x_md.s</FileName>
               <FileType>2</FileType>
-              <FilePath>board\startup\ARM\startup_gd32f10x_md.s</FilePath>
+              <FilePath>board\libraries\GD32F10x_Firmware_Library\CMSIS\GD\GD32F10x\Source\ARM\startup_gd32f10x_md.s</FilePath>
             </File>
-          </Files>
-          <Files>
             <File>
               <FileName>board.c</FileName>
               <FileType>1</FileType>
               <FilePath>board\board.c</FilePath>
             </File>
-          </Files>
-          <Files>
             <File>
               <FileName>drv_gpio.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\Modules\rt-thread\bsp\gd32\libraries\gd32_drivers\drv_gpio.c</FilePath>
+              <FilePath>board\libraries\gd32_drivers\drv_gpio.c</FilePath>
             </File>
-          </Files>
-          <Files>
             <File>
               <FileName>drv_usart.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\Modules\rt-thread\bsp\gd32\libraries\gd32_drivers\drv_usart.c</FilePath>
+              <FilePath>board\libraries\gd32_drivers\drv_usart.c</FilePath>
             </File>
           </Files>
         </Group>
@@ -561,15 +528,11 @@
               <FileType>1</FileType>
               <FilePath>..\..\Modules\rt-thread\components\finsh\shell.c</FilePath>
             </File>
-          </Files>
-          <Files>
             <File>
               <FileName>msh.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\..\Modules\rt-thread\components\finsh\msh.c</FilePath>
             </File>
-          </Files>
-          <Files>
             <File>
               <FileName>cmd.c</FileName>
               <FileType>1</FileType>
@@ -581,93 +544,69 @@
           <GroupName>Kernel</GroupName>
           <Files>
             <File>
-              <FileName>timer.c</FileName>
+              <FileName>components.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\Modules\rt-thread\src\timer.c</FilePath>
+              <FilePath>..\..\Modules\rt-thread\src\components.c</FilePath>
             </File>
-          </Files>
-          <Files>
-            <File>
-              <FileName>kservice.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\..\Modules\rt-thread\src\kservice.c</FilePath>
-            </File>
-          </Files>
-          <Files>
-            <File>
-              <FileName>object.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\..\Modules\rt-thread\src\object.c</FilePath>
-            </File>
-          </Files>
-          <Files>
-            <File>
-              <FileName>clock.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\..\Modules\rt-thread\src\clock.c</FilePath>
-            </File>
-          </Files>
-          <Files>
-            <File>
-              <FileName>thread.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\..\Modules\rt-thread\src\thread.c</FilePath>
-            </File>
-          </Files>
-          <Files>
-            <File>
-              <FileName>scheduler.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\..\Modules\rt-thread\src\scheduler.c</FilePath>
-            </File>
-          </Files>
-          <Files>
-            <File>
-              <FileName>device.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\..\Modules\rt-thread\src\device.c</FilePath>
-            </File>
-          </Files>
-          <Files>
-            <File>
-              <FileName>irq.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\..\Modules\rt-thread\src\irq.c</FilePath>
-            </File>
-          </Files>
-          <Files>
             <File>
               <FileName>mempool.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\..\Modules\rt-thread\src\mempool.c</FilePath>
             </File>
-          </Files>
-          <Files>
             <File>
-              <FileName>ipc.c</FileName>
+              <FileName>object.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\Modules\rt-thread\src\ipc.c</FilePath>
+              <FilePath>..\..\Modules\rt-thread\src\object.c</FilePath>
             </File>
-          </Files>
-          <Files>
             <File>
-              <FileName>idle.c</FileName>
+              <FileName>clock.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\Modules\rt-thread\src\idle.c</FilePath>
+              <FilePath>..\..\Modules\rt-thread\src\clock.c</FilePath>
             </File>
-          </Files>
-          <Files>
             <File>
               <FileName>mem.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\..\Modules\rt-thread\src\mem.c</FilePath>
             </File>
-          </Files>
-          <Files>
             <File>
-              <FileName>components.c</FileName>
+              <FileName>irq.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\Modules\rt-thread\src\components.c</FilePath>
+              <FilePath>..\..\Modules\rt-thread\src\irq.c</FilePath>
+            </File>
+            <File>
+              <FileName>device.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\Modules\rt-thread\src\device.c</FilePath>
+            </File>
+            <File>
+              <FileName>kservice.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\Modules\rt-thread\src\kservice.c</FilePath>
+            </File>
+            <File>
+              <FileName>ipc.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\Modules\rt-thread\src\ipc.c</FilePath>
+            </File>
+            <File>
+              <FileName>idle.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\Modules\rt-thread\src\idle.c</FilePath>
+            </File>
+            <File>
+              <FileName>thread.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\Modules\rt-thread\src\thread.c</FilePath>
+            </File>
+            <File>
+              <FileName>scheduler.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\Modules\rt-thread\src\scheduler.c</FilePath>
+            </File>
+            <File>
+              <FileName>timer.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\Modules\rt-thread\src\timer.c</FilePath>
             </File>
           </Files>
         </Group>
@@ -677,60 +616,55 @@
             <File>
               <FileName>gd32f10x_exti.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\Modules\rt-thread\bsp\gd32\libraries\GD32F10x_Firmware_Library\GD32F10x_standard_peripheral\Source\gd32f10x_exti.c</FilePath>
+              <FilePath>board\libraries\GD32F10x_Firmware_Library\GD32F10x_standard_peripheral\Source\gd32f10x_exti.c</FilePath>
             </File>
-          </Files>
-          <Files>
             <File>
               <FileName>gd32f10x_gpio.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\Modules\rt-thread\bsp\gd32\libraries\GD32F10x_Firmware_Library\GD32F10x_standard_peripheral\Source\gd32f10x_gpio.c</FilePath>
+              <FilePath>board\libraries\GD32F10x_Firmware_Library\GD32F10x_standard_peripheral\Source\gd32f10x_gpio.c</FilePath>
             </File>
-          </Files>
-          <Files>
             <File>
               <FileName>gd32f10x_misc.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\Modules\rt-thread\bsp\gd32\libraries\GD32F10x_Firmware_Library\GD32F10x_standard_peripheral\Source\gd32f10x_misc.c</FilePath>
+              <FilePath>board\libraries\GD32F10x_Firmware_Library\GD32F10x_standard_peripheral\Source\gd32f10x_misc.c</FilePath>
             </File>
-          </Files>
-          <Files>
             <File>
               <FileName>system_gd32f10x.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\Modules\rt-thread\bsp\gd32\libraries\GD32F10x_Firmware_Library\CMSIS\GD\GD32F10x\Source\system_gd32f10x.c</FilePath>
+              <FilePath>board\libraries\GD32F10x_Firmware_Library\CMSIS\GD\GD32F10x\Source\system_gd32f10x.c</FilePath>
             </File>
-          </Files>
-          <Files>
             <File>
               <FileName>gd32f10x_rcu.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\Modules\rt-thread\bsp\gd32\libraries\GD32F10x_Firmware_Library\GD32F10x_standard_peripheral\Source\gd32f10x_rcu.c</FilePath>
+              <FilePath>board\libraries\GD32F10x_Firmware_Library\GD32F10x_standard_peripheral\Source\gd32f10x_rcu.c</FilePath>
             </File>
-          </Files>
-          <Files>
             <File>
               <FileName>gd32f10x_usart.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\Modules\rt-thread\bsp\gd32\libraries\GD32F10x_Firmware_Library\GD32F10x_standard_peripheral\Source\gd32f10x_usart.c</FilePath>
+              <FilePath>board\libraries\GD32F10x_Firmware_Library\GD32F10x_standard_peripheral\Source\gd32f10x_usart.c</FilePath>
             </File>
           </Files>
+        </Group>
+        <Group>
+          <GroupName>::CMSIS</GroupName>
         </Group>
       </Groups>
     </Target>
   </Targets>
+
   <RTE>
-    <apis />
+    <apis/>
     <components>
       <component Cclass="CMSIS" Cgroup="CORE" Cvendor="ARM" Cversion="5.6.0" condition="ARMv6_7_8-M Device">
-        <package name="CMSIS" schemaVersion="1.7.7" url="http://www.keil.com/pack/" vendor="ARM" version="5.9.0" />
+        <package name="CMSIS" schemaVersion="1.7.7" url="http://www.keil.com/pack/" vendor="ARM" version="5.9.0"/>
         <targetInfos>
-          <targetInfo name="rt-thread" />
+          <targetInfo name="rt-thread"/>
         </targetInfos>
       </component>
     </components>
-    <files />
+    <files/>
   </RTE>
+
   <LayerInfo>
     <Layers>
       <Layer>
@@ -740,4 +674,5 @@
       </Layer>
     </Layers>
   </LayerInfo>
+
 </Project>

@@ -1,7 +1,8 @@
-/Target/PG36/build
-/Target/PG36/*.config.old
-/Target/PG36/*.uvguix.*
-/Target/PG36/*.bin
-/Target/PG36/*.pyc
-/Target/PG36/*.scvd
-/Target/PG36/*.dblite
+Target/PG36/build
+Target/PG36/*.config.old
+Target/PG36/*.uvguix.*
+Target/PG36/*.bin
+Target/PG36/*.pyc
+Target/PG36/*.scvd
+Target/PG36/*.dblite
+Target/PG36/.vscode

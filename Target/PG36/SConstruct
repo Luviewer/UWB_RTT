@@ -36,10 +36,10 @@ Export('rtconfig')
 
 SDK_ROOT = os.path.abspath('./')
 
-if os.path.exists(SDK_ROOT + '../../Modules/rt-thread/bsp/gd32/libraries'):
-    libraries_path_prefix = SDK_ROOT + '../../Modules/rt-thread/bsp/gd32/libraries'
+if os.path.exists(SDK_ROOT + '/PG36/board/libraries'):
+    libraries_path_prefix = SDK_ROOT + '/PG36/board/libraries'
 else:
-    libraries_path_prefix = os.path.dirname(SDK_ROOT) + '../../Modules/rt-thread/bsp/gd32/libraries'
+    libraries_path_prefix = os.path.dirname(SDK_ROOT) + '/PG36/board/libraries'
 
 SDK_LIB = libraries_path_prefix
 Export('SDK_LIB')

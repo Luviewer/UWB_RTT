@@ -5,5 +5,4 @@ Target/PG36/*.bin
 Target/PG36/*.pyc
 Target/PG36/*.scvd
 Target/PG36/*.dblite
-Target/PG36/project.uvproj
-Target/PG36/project.uvprojx
+Target/PG36/project.*

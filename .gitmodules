@@ -1,4 +1,0 @@
-[submodule "modules/rt-thread"]
-	path = modules/rt-thread
-	url = https://github.com/RT-Thread/rt-thread.git
-	branch = v4.0.x

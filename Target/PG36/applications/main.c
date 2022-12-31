@@ -13,6 +13,8 @@
 #include <rtdevice.h>
 #include <board.h>
 
+#include "test.h"
+
 /* defined the LED2 pin: PC0 */
 #define LED2_PIN GET_PIN(B, 1)
 

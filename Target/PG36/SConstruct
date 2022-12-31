@@ -5,7 +5,7 @@ import rtconfig
 if os.getenv('RTT_ROOT'):
     RTT_ROOT = os.getenv('RTT_ROOT')
 else:
-    RTT_ROOT = os.path.normpath(os.getcwd() + '/../../Modules/rt-thread')
+    RTT_ROOT = os.path.normpath(os.getcwd() + '/../../modules/rt-thread')
 
 sys.path = sys.path + [os.path.join(RTT_ROOT, 'tools')]
 try:
@@ -55,6 +55,29 @@ objs.extend(SConscript(os.path.join(libraries_path_prefix, gd32_library, 'SConsc
 
 # include drivers
 objs.extend(SConscript(os.path.join(libraries_path_prefix, 'gd32_drivers', 'SConscript')))
+
+# include test
+TEST_ROOT = os.path.abspath('./')
+
+if os.path.exists(TEST_ROOT + '../../modules/'):
+    libraries_path_prefix = TEST_ROOT + '../../modules/'
+else:
+    libraries_path_prefix = os.path.dirname(TEST_ROOT) + '../../modules/'
+
+objs.extend(SConscript(os.path.join(libraries_path_prefix, 'test', 'SConscript')))
+
+# include decadriver
+TEST_ROOT = os.path.abspath('./')
+
+if os.path.exists(TEST_ROOT + '../../modules/DW1000'):
+    libraries_path_prefix = TEST_ROOT + '../../modules/DW1000'
+else:
+    libraries_path_prefix = os.path.dirname(TEST_ROOT) + '../../modules/DW1000'
+
+objs.extend(SConscript(os.path.join(libraries_path_prefix, 'decadriver', 'SConscript')))
+objs.extend(SConscript(os.path.join(libraries_path_prefix, 'platform', 'SConscript')))
+
+
 
 # make a building
 DoBuilding(TARGET, objs)

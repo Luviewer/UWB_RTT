@@ -17,5 +17,5 @@ config PKGS_DIR
  
 source "$RTT_DIR/Kconfig"
 source "$PKGS_DIR/Kconfig"
-source "../../Modules/rt-thread/bsp/gd32/libraries/Kconfig"
+source "board/libraries/gd32_drivers/Kconfig"
 source "board/Kconfig"
